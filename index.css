@@ -1,0 +1,411 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid #fff; */
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* All Homepage page contains */
+#Homepage {
+    height: 100vh;
+    width: 100%;
+}
+#homebg{
+  height: 100vh;
+  width: 100%;
+  background-image: url(pic/bg2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: center;
+}
+
+#header {
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: #03000045;
+}
+
+#logo img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+    left: 10%;
+    top: 10px;
+}
+
+
+
+#nav {
+    position: absolute;
+    width: 400px;
+    height: 120px;
+    right: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+
+}
+
+#nav a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-family: 'Cheerful Cupcake', sans-serif;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+
+
+#nav a:hover {
+    color: #000;
+    background-color: rgb(247, 186, 129);
+    
+}
+
+#log-in div {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    width: 200px;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 30px;
+
+}
+
+#log-in:hover {
+    color: black;
+    background-color: rgb(253, 253, 253, 80%);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;
+}
+
+#main {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+
+#meet {
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 8rem;
+    color: white;
+    height: 300px;
+    width: 800px;
+    top: 200px;
+}
+
+#meet h1 {
+    font-family: 'Cheerful Cupcake', sans-serif;
+}
+
+#meet h1 p {
+    position: absolute;
+    font-family: 'Mockind Easter', sans-serif;
+    font-family: 'Mockind Easter Outline', sans-serif;
+    left: 200px;
+    top: -20px;
+    font-size: 70px;
+}
+
+.me {
+    font-family: 'Fizzy Soda', sans-serif;
+    position: absolute;
+    top: 80px;
+    font-size: 50px;
+
+}
+
+#me2 {
+    top: 140px;
+}
+
+#para {
+    position: absolute;
+    top: 220px;
+    font-size: 30px;
+}
+
+
+/* AllAbout Us page contains */
+
+#Aboutuspage {
+    height: 90vh;
+    width: 100%;
+}
+
+#circle {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background-color: rgba(9, 212, 202);
+    margin-top: 200px;
+    left: 200px;
+    border-radius: 50%;
+}
+
+#circle img {
+    position: absolute;
+    height: 500px;
+}
+
+#circle1 {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-color: rgba(9, 212, 202);
+    margin-top: 250px;
+    left: 200px;
+    border-radius: 50%;
+}
+
+#circle2 {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: rgba(70, 245, 207, 0.8);
+    margin-top: 50px;
+    left: 350px;
+    border-radius: 50%;
+}
+
+#circle3 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(70, 245, 207, 0.8);
+    margin-top: 50px;
+    left: -50px;
+    border-radius: 50%;
+}
+
+#circle4 {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-color: rgba(70, 245, 207, 0.8);
+    margin-top: 350px;
+    left: 100px;
+    border-radius: 50%;
+}
+
+#abouttext {
+    position: absolute;
+    height: 500px;
+    width: 900px;
+    right: 5%;
+    margin-top: 200px;
+}
+
+#abouttext p {
+    color: white;
+    font-size: 30px;
+    font-family: 'BAGOTA LOS', sans-serif;
+
+}
+
+
+#abouttext h1 {
+    margin-top: 60px;
+    color: white;;
+    font-size: 60px;
+}
+
+/* All Contact page contains */
+
+#Contactpage {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#box1 {
+    color: white;
+    height: 400px;
+    width: 300px;
+    margin-top: 400px;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+#contimg img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#contnav{
+    margin-top: 30px;
+    display: flex;
+    height: 50px;
+    width: 300px;
+    justify-content: center;
+    gap: 15%;
+}
+
+#contnav a{
+    height: 50px;
+    width: 50px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-size: 20px;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+#contnav a:hover{
+background-color: blue;
+color: #ffffff;
+
+}
+
+/* This is botton */
+#d1, #d2, #d3{
+    height: 100%;
+    width: 100%;
+    opacity: 20%;
+    background-color: #050202;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+
+
+#calcu {
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    background-image: url(pic/money.jpg);
+    background-size: cover;
+    background-color: grey;
+    top: 600px;
+    left: 20%;
+    border-radius: 20px;
+    border: 5px solid white;
+    backdrop-filter: saturate(50px);
+}
+#calcu h1{
+    top: 200px;
+    color: black;
+    background-color: #ffffff;
+    border-radius: 30px;
+    opacity: 0;
+}
+#news h1{
+    background-color: white;
+    color: #000000;
+    border-radius: 30px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    top:230px;
+    opacity: 0;
+}
+#calcu:hover h1,#news:hover h1, #vid:hover h1{
+   opacity: 10;
+   transition: 0.5s;
+   
+}
+#main a{
+   justify-content: center;
+   display: flex;
+}
+#vid{
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+    top: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    border-radius: 20px;
+    background-image: url(pic/background-SB-Blog-Biggest-Impact-Comms.jpg);
+    background-size: cover;
+    background-color: grey;
+}
+#news 
+{
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    background-color: aqua;
+    top: 600px;
+    right: 20%;
+    border-radius: 20px;
+    border: 5px solid white;
+    background-image: url(pic/financial-management-advisory-services.jpg);
+    background-size: cover;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+#vid h1{
+    background-color: white;
+    color: #000;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    bottom: -20px;
+    opacity: 0;
+ }
+
+
+ #vid:hover {
+    background-image: url(pic/background-SB-Blog-Biggest-Impact-Comms.gif);
+    border-color: #ffffff;
+    box-shadow: 1px 1px 10px 5px rgb(82, 237, 254);
+    height: 230px;
+    width: 330px;
+
+
+ }
+ #news:hover {
+    background-image: url(pic/financial-management-advisory-services.gif);
+    border-color: #ffffff;
+    box-shadow: 1px 1px 10px 5px rgb(82, 237, 254);
+    height: 230px;
+    width: 280px;
+    right: 18%;
+ }
+ #calcu:hover {
+    background-image: url(pic/a6ffa54c9b06f7030aecd93f011dcb60-2021-12-01-18_30_43.gif);
+    border-color: #ffffff;
+    box-shadow: 1px 1px 10px 5px rgb(82, 237, 254);
+    height: 230px;
+    width: 280px;
+    left: 18%;
+ }

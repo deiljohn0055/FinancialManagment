@@ -1,0 +1,52 @@
+
+/* Home page background and design */
+
+
+#homebg{
+    position: absolute;
+
+}
+
+#homebg #myVideo{
+    background-size: contain; 
+    width: 100%;
+}
+
+
+#back{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 30%);
+
+}
+
+/* About us page background and design */
+
+#aboutbg{
+    
+        position: absolute;
+        height: 90vh;
+        width: 100%;
+        background: rgb(41, 244, 248); 
+        background: linear-gradient(0deg, rgb(210, 82, 44) 19%, rgb(121, 36, 195) 94%);
+    
+}
+
+/* Contact page background and design */
+
+#contactbg{
+    
+    position: absolute;
+    height: 90vh;
+    width: 100%;
+    background: rgb(41, 244, 248); 
+    background: linear-gradient(0deg, rgb(0, 0, 0) 19%, rgb(21, 19, 18) 94%);
+
+}
+#line{
+    height: 20px;
+    width: 100%;
+    background-color: grey;
+    position: absolute;
+}
